@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Neuebit';
+    src: url('components/neuebit.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.neuebit {
+    font-family: "Neuebit", sans-serif;     
+    color: white;
+    font-size: x-large;
+}
+
+body, html {
+    height: 100%;
+    background-color: black;
+}
+
+.face-anchor {
+    position: relative;
+}
+
+.face-anchor .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+}
+
+.container {
+    max-width: 75%;
+    margin: auto;
+    background-color: black;
+    border-color: white;
+    border-width: 5px;
+    padding: 10px;
+}
+
+.card {
+    max-width: 75%;
+    margin: auto;
+    background-color: black;
+    border-color: white;
+    border-width: 3px;
+    padding-top: 20pxs;
+}
+
+.active {
+    background-color: black !important ;
+}
+
+.modal-dialog {
+    max-width: 80%;
+    width: 60%;
+}
+
+.padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+    padding-right: 3px;
+}
+
+.btn {
+    font-size: x-large;
+    border-color: whitesmoke;
+    border-width: 3px;
+}
+
+/* Ensure backdrop is removed */
+.modal-backdrop {
+    display: none !important;
+    opacity: 0 !important;
+}
+
+/* Ensure modal is on top of everything */
+.modal {
+    z-index: 1050 !important;
+}
+
+/* Reset the body overflow when modal is hidden */
+body.modal-open {
+    overflow: hidden;
+}
+
+body:not(.modal-open) {
+    overflow: auto !important;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9; /* Locks the aspect ratio */
+    object-fit: cover; /* Ensures images fill the space without distortion */
+}
+
+.social {
+    display: flex; 
+    align-items: center; 
+    gap: 8px;
+}

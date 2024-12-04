@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="styles/styles.css" rel="stylesheet">
+    <title>Advait</title>
+</head>
+<body class="card neuebit">
+    <!-- Cover Image -->
+    <div class="container neuebit">    
+        <h1>Advait Contractor</h1>
+        <img src="images/cover.png" class="rounded img-fluid" alt="Cover">
+        <p>Photographer, coder, and student</p>
+    </div>
+    <div class="about-me container neuebit text-dark bg-light rounded">
+        <h2>who am i?</h2>
+        <p>I am Advait Contractor, a person that loves planes, coding and photos. I've learnt numerous things along the way, such as different programming languages, and I aspire to be an ______ one day (I really don't know yet). also, i'm an hack club member, a community of just teen coders!</p>
+        <h4>programming languages arsenal</h4>
+        <p>legend:</p>
+        <p>&#9642; click on it for the projects in it</p>
+        <p>&#9642; if it's disabled, it means i newly picked it up and i have no projects in it (yet)</p>
+        <p>&#9642; if it's highlighted, i'm strong in it</p>
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active" data-bs-toggle="modal" data-bs-target="#pythonModal">Python</a>
+            <a href="#" class="list-group-item list-group-item-action" data-bs-toggle="modal" data-bs-target="#swiftModal">Swift</a>
+            <a href="#" class="list-group-item list-group-item-action" data-bs-toggle="modal" data-bs-target="#figmaModal">Figma (more of a design language)</a>
+            <a href="#" class="list-group-item list-group-item-action" data-bs-toggle="modal" data-bs-target="#scratchModal">Scratch (the one i started with)</a>
+            <a href="#" class="list-group-item list-group-item-action" data-bs-toggle="modal" data-bs-target="#htmlCssModal">HTML/CSS</a>
+            <a href="#" class="list-group-item list-group-item-action disabled" data-bs-toggle="modal" data-bs-target="#javascriptModal">JavaScript (nothing intensive yet)</a>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="pythonModal" tabindex="-1" aria-labelledby="pythonModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-black text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="pythonModalLabel">Python</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>an absolute classic language i picked up during the COVID-19 pandemic</p>
+                    <div class="card neuebit padding">
+                        <h1>Tetris: The Tetris Trap</h1>
+                        <img src="images/the-tetris-trap/logo.png" class="img-fluid">
+                        <p>A game I made for a game jam hosted by Hack Club! (Counterspell Singapore)</p>
+                        <p>btw i helped host Counterspell Singapore too!</p>
+                        <button type="button" class="btn btn-dark x-large"><a href="https://github.com/contyadvait/tetris-the-last-tetris"></a>GitHub</button>
+                    </div>
+
+                    <div class="card neuebit padding">
+                        <h1>QMLoaner</h1>
+                        <img src="images/qmloaner/terminal.png" class="img-fluid">
+                        <img src="images/qmloaner/auto-form.png" class="img-fluid">
+                        <p>Original shown in screenshot</p>
+                        <p>A loan system to help simplify loaning out school instruments to students</p>
+                        <p>This is an Streamlit-based application, while the original was purely running on the terminal</p>
+                        <button type="button" class="btn btn-dark x-large"><a href="https://github.com/contyadvait/QMLoaner"></a>GitHub (link to new edition in README)</button>
+                        <button type="button" class="btn btn-dark x-large"><a href="https://qmloaner.streamlit.app"></a>Demo (new edition)</button>
+                        <p>The new edition demo might not work because this is not the one in the school system, and the MongoDB cluster likes to go to sleep occassionally.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="swiftModal" tabindex="-1" aria-labelledby="swiftModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-black text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="swiftModalLabel">Swift</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="card neuebit padding">
+                        <h1>FitStreak</h1>
+                        <img src="images/fitstreak.png" class="img-fluid">
+                        <p>A fitness application made part of the Swift Accelerator Programme class of 2023</p>
+                        <button type="button" class="btn btn-dark x-large"><a href="https://github.com/contyadvait/gymguru"></a>GitHub</button>
+                        <button type="button" class="btn btn-dark x-large"><a href="https://apps.apple.com/us/app/fitstreak-exercise-tracker/id6473677740"></a>App download</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="figmaModal" tabindex="-1" aria-labelledby="figmaModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-black text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="figmaModalLabel">Figma</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Since this is more of a design language, let's just go through some of my own designs</p>
+                    <div class="card neuebit padding">
+                        <h1>FitStreak Logo</h1>
+                        <img src="images/figma/fitstreak-logo.png" class="img-fluid rounded">
+                    </div>
+                    <div class="card neuebit padding">
+                        <h1>A logo for me</h1>
+                        <img src="images/figma/advait-logo.png" class="img-fluid">
+                    </div>
+                    <div class="card neuebit padding">
+                        <h1>Tetris: The Tetris Trap Logo</h1>
+                        <img src="images/figma/tetris-trap-logo.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="scratchModal" tabindex="-1" aria-labelledby="scratchModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-black text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="scratchModalLabel">Scratch</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Wow it's been a while since I've done this</p>
+                    <p>All my projects are here:</p>
+                    <button><a href="https://scratch.mit.edu/users/IDCON/"></a>Profile on Scratch</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="htmlCssModal" tabindex="-1" aria-labelledby="htmlCssModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-black text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="htmlCssModalLabel">HTML/CSS</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>This very website is what I made in it!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.list-group-item').forEach(item => {
+            item.addEventListener('click', () => {
+                const modalId = item.getAttribute('data-bs-target');
+                const modal = document.querySelector(modalId);
+                const bsModal = new bootstrap.Modal(modal);
+                bsModal.show();
+            });
+        });
+    </script>
+
+    <!-- Photos -->
+    <div class="container neuebit">
+        <h1>my photos</h1>
+        <p>as someone who loves planes, i naturally fell in love with the photography of planes (as one does). hence, here are my best plane (and non-plane) photos.</p>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="photo 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="photo 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="photo 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="photo 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="photo 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="photo 6"></button>
+            </div>
+            <div class="carousel-inner rounded">
+            <div class="carousel-item active">
+                <img src="images/photography/1.JPG" class="d-block w-100" alt="a350 panning">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>A350 panning shot</h5>
+                <p>only had one chance - came out almost perfectly!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/photography/2.JPG" class="d-block w-100" alt="a320 so far so scoot">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>A320 pushback</h5>
+                <p>a great shot i took when i first started photography</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/photography/3.JPG" class="d-block w-100" alt="rainy football">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>a rainy football pitch</h5>
+                <p>took this during school on a rainy day</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/photography/4.JPG" class="d-block w-100" alt="emirates boeing 777">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Emirates Boeing 777-300ER</h5>
+                <p>another beauty just taxing into the gate</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/photography/5.JPG" class="d-block w-100" alt="ilight">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>ilight i think</h5>
+                <p>some event at marina bay - don't really remember but looks good!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/photography/6.JPG" class="d-block w-100" alt="fh4">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>The Last Goodbye</h5>
+                <p>A photo taken in Forza Horizon 4 near Derwent Reservoir</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Contact + Socials-->
+    <div class="about-me container neuebit text-dark bg-light rounded">
+        <h2>my contacts</h2>
+        <p>contact me anywhere + my socials as a bonus</p>
+        <div class="social">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+            </svg>
+            <p style="margin: 0;">Email:</p>
+            <a href="mailto:advait@advaitconty.com" style="text-decoration: none;">advait@advaitconty.com</a>
+        </div>
+        <div class="social">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+              </svg>
+            <p style="margin: 0;">GitHub (very barebones)</p>
+            <a href="https://github.com/contyadvait" style="text-decoration: none;">contyadvait</a>
+        </div>
+    </div>
+</body>
+</html>
